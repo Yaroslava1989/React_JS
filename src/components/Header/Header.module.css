@@ -1,9 +1,25 @@
 .header {
-    height: 64px;
+    height: 84px;
     grid-area: h;
-    background-color: green;
+    background-color: transparent;
 }
 
 .header img {
-    width: 20px;
+    width: 34px;
+    height: 34px;
+}
+
+.header .titleBlock {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+}
+
+.header .titleBlock .logoTitle h6 {
+    color: #515365;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: .875rem;
+    line-height: 1.3;
+    background-color: transparent;
+
 }
