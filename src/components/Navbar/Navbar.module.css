@@ -8,6 +8,9 @@
     color: white;
     text-decoration: none;
 }
+.item.active a {
+    color: gold;
+}
 
 .item a.activeLink {
     color: red;
